@@ -9,4 +9,5 @@ public class Student
     public string LastName {get;set;} = string.Empty;
     public string StudentCode {get;set;} = string.Empty;
     public DateTime BirthDate {get;set;}
+    public ICollection<Score>? Scores {get;set;}
 }
